@@ -1,0 +1,448 @@
+@media (min-width: 1100px) {
+
+    .contact--style {
+        height: 998px;
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .main--location {
+        height: 998px;
+        width: 65vw;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        background-color: $color3;
+    }
+
+    .icons--contact {
+        width: 20vw;
+        display: flex;
+        flex-direction: column;
+        color: $color1;
+        align-items: center;
+    }
+
+    .icons--contact p {
+        padding-top: 15px;
+    }
+
+    .contact__text {
+        background-color: $color3;
+        color: $color1;
+        height: 250px;
+        width: 65vw;
+        margin: 0px;
+        font-family: $font2;
+        font-size: $textpc;
+        font-style: normal;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .location--size {
+        height: 748px;
+        width: 65vw;
+        margin: 0px;
+        overflow: hidden;
+    }
+    
+    .form--size {
+        height: 998px;
+        width: 35vw;
+        margin: 0px;
+        text-align: center;
+        background-color: $color2;
+        color: $color1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .form__imput--style {
+        width: 30vw;
+        height: 40px;
+        border: 3px solid $color1;
+        text-align: left;
+        font-family: $font2;
+        font-size: $textpc;
+        font-style: normal;
+        margin-top: 12px;
+    }
+    
+    .form__txtarea--style {
+        width: 30vw;
+        height: 160px;
+        border: 3px solid $color1;
+        text-align: left;
+        font-family: $font2;
+        font-size: $textpc;
+        font-style: normal;
+        margin-top: 12px;
+        resize: none;
+    }
+    
+    .form__imput--style:focus {
+        background: $color3;
+        color: $color1;
+    }
+    
+    .form__txtarea--style:focus {
+        background: $color3;
+        color: $color1;
+    }
+    
+    .form__imputcb--style {
+        width: 30vw;
+        height: 80px;
+        text-align: center;
+        font-family: $font2;
+        font-size: $textpc;
+        font-style: normal;
+        margin-top: 40px;
+        padding-left: 80px;
+    }
+    
+    .button__submit {
+        width: 30vw;
+        height: 40px;
+        background-color: $color1;
+        color: $color2;
+        text-align: center;
+        font-family: $font2;
+        font-size: $textpc;
+        font-style: normal;
+        border: none;
+    }
+    
+    .button__submit:hover {
+        transform: scale(1.02,1.02);
+    }
+    
+    .button__reset {
+        width: 30vw;
+        height: 40px;
+        background-color: $color4;
+        color: $color2;
+        text-align: center;
+        font-family: $font2;
+        font-size: $textpc;
+        font-style: normal;
+        margin-top: 12px;
+        border: none;
+    }
+    
+    .button__reset:hover {
+        transform: scale(1.02,1.02);
+    }
+}
+
+@media (min-width: 750px) and (max-width: 1100px) {
+    .contact--style {
+        width: 100%;
+        height: 900px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main--location {
+        height: 500px;
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icons--contact {
+        width: 33vw;
+        display: flex;
+        flex-direction: column;
+        color: $color1;
+        align-items: center;
+    }
+
+    .icons--contact p {
+        padding-top: 15px;
+    }
+
+    .contact__text {
+        background-color: $color3;
+        color: $color1;
+        height: 250px;
+        width: 100%;
+        margin: 0px;
+        font-family: $font2;
+        font-size: $textpc;
+        font-style: normal;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }    
+
+    h3 {
+        margin: 0px;
+        text-align: center;
+        color: $color1;
+        font-family: $font2;
+        font-size: $titmob;
+        font-style: normal;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .location--size {
+        height: 250px;
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .form--size {
+        height: 400px;
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        background-color: $color2;
+        color: $color1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .form__imput--style {
+        width: 85vw;
+        height: 25px;
+        border: 3px solid $color1;
+        text-align: left;
+        font-family: $font2;
+        font-size: $textmob;
+        font-style: normal;
+        margin-top: 12px;
+    }
+    
+    .form__txtarea--style {
+        width: 85vw;
+        height: 75px;
+        border: 3px solid $color1;
+        text-align: left;
+        font-family: $font2;
+        font-size: $textmob;
+        font-style: normal;
+        margin-top: 12px;
+        resize: none;
+    }
+    
+    .form__imput--style:focus {
+        background: $color3;
+        color: $color1;
+    }
+    
+    .form__txtarea--style:focus {
+        background: $color3;
+        color: $color1;
+    }
+    
+    .form__imputcb--style {
+        width: 85vw;
+        height: 50px;
+        text-align: center;
+        font-family: $font2;
+        font-size: $textmob;
+        font-style: normal;
+        margin-top: 18px;
+        padding-left: 80px;
+    }
+    
+    .button__submit {
+        width: 85vw;
+        height: 25px;
+        background-color: $color1;
+        color: $color2;
+        text-align: center;
+        font-family: $font2;
+        font-size: $textmob;
+        font-style: normal;
+        border: none;
+    }
+    
+    .button__submit:hover {
+        transform: scale(1.02,1.02);
+    }
+    
+    .button__reset {
+        width: 85vw;
+        height: 25px;
+        background-color: $color4;
+        color: $color2;
+        text-align: center;
+        font-family: $font2;
+        font-size: $textmob;
+        font-style: normal;
+        margin-top: 12px;
+        border: none;
+    }
+    
+    .button__reset:hover {
+        transform: scale(1.02,1.02);
+    }
+}
+
+@media (max-width: 750px) {
+    .contact--style {
+        width: 100%;
+        height: 900px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main--location {
+        height: 500px;
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icons--contact {
+        display: flex;
+        flex-direction: row;
+        color: $color1;
+    }
+
+    .icons--contact p {
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .contact__text {
+        background-color: $color3;
+        color: $color1;
+        height: 200px;
+        width: 100%;
+        margin: 0px;
+        font-family: $font2;
+        font-size: $textmob;
+        font-style: normal;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 20px;
+    }
+    
+    h3 {
+        margin: 0px;
+        text-align: center;
+        color: $color1;
+        font-family: $font2;
+        font-size: $titmob;
+        font-style: normal;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .location--size {
+        height: 300px;
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .form--size {
+        height: 400px;
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        background-color: $color2;
+        color: $color1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .form__imput--style {
+        width: 85vw;
+        height: 25px;
+        border: 3px solid $color1;
+        text-align: left;
+        font-family: $font2;
+        font-size: $textmob;
+        font-style: normal;
+        margin-top: 12px;
+    }
+    
+    .form__txtarea--style {
+        width: 85vw;
+        height: 75px;
+        border: 3px solid $color1;
+        text-align: left;
+        font-family: $font2;
+        font-size: $textmob;
+        font-style: normal;
+        margin-top: 12px;
+        resize: none;
+    }
+    
+    .form__imput--style:focus {
+        background: $color3;
+        color: $color1;
+    }
+    
+    .form__txtarea--style:focus {
+        background: $color3;
+        color: $color1;
+    }
+    
+    .form__imputcb--style {
+        width: 85vw;
+        height: 50px;
+        text-align: center;
+        font-family: $font2;
+        font-size: $textmob;
+        font-style: normal;
+        margin-top: 18px;
+        padding-left: 80px;
+    }
+    
+    .button__submit {
+        width: 85vw;
+        height: 25px;
+        background-color: $color1;
+        color: $color2;
+        text-align: center;
+        font-family: $font2;
+        font-size: $textmob;
+        font-style: normal;
+        border: none;
+    }
+    
+    .button__submit:hover {
+        transform: scale(1.02,1.02);
+    }
+    
+    .button__reset {
+        width: 85vw;
+        height: 25px;
+        background-color: $color4;
+        color: $color2;
+        text-align: center;
+        font-family: $font2;
+        font-size: $textmob;
+        font-style: normal;
+        margin-top: 12px;
+        border: none;
+    }
+    
+    .button__reset:hover {
+        transform: scale(1.02,1.02);
+    }
+}

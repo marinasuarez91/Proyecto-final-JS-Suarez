@@ -1,0 +1,45 @@
+.footer--frame {
+    background-color: $color1;
+    color: $color2;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer--text {
+    color: $color2;
+    font-family: $font2;
+    font-size: $footer;
+    font-style: normal;
+    margin: left;
+    padding-left: 10px;
+}
+  
+.footer--icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-around;
+    margin: right;
+    padding-right: 10px;
+    min-width: 200px;
+    color: $color2;
+    text-decoration: none;
+    list-style: none;
+  }
+
+.icons--hover {
+    text-decoration: none;
+    color: white;
+}
+
+.icons--hover:hover {
+    opacity: 0.5;
+    text-decoration: none;
+    color: white;
+}

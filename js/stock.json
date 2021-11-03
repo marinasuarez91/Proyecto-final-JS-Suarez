@@ -1,0 +1,164 @@
+[
+    {
+      "id": 1,
+      "nombre": "Andes",
+      "tipo": "bolso",
+      "precio": 8200,
+      "img": "./adj/bolsos/ba1.jpg",
+      "color": "suela",
+      "cantidad": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Andes",
+      "tipo": "bolso",
+      "precio": 8200,
+      "img": "./adj/bolsos/ba4.jpg",
+      "color": "negro",
+      "cantidad": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Bosque",
+      "tipo": "bolso",
+      "precio": 8000,
+      "img": "./adj/bolsos/bav1.jpg",
+      "color": "negro-suela",
+      "cantidad": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Selva",
+      "tipo": "bolso",
+      "precio": 7500,
+      "img": "./adj/bolsos/bb1.jpg",
+      "color": "suela",
+      "cantidad": 1
+    },
+    {
+      "id": 5,
+      "nombre": "Selva",
+      "tipo": "bolso",
+      "precio": 7500,
+      "img": "./adj/bolsos/bb3.jpg",
+      "color": "negro",
+      "cantidad": 1
+    },
+    {
+      "id": 6,
+      "nombre": "Selva",
+      "tipo": "bolso",
+      "precio": 7500,
+      "img": "./adj/bolsos/bb5.jpg",
+      "color": "mostaza",
+      "cantidad": 1
+    },
+    {
+      "id": 7,
+      "nombre": "Álamo",
+      "tipo": "bolso",
+      "precio": 6500,
+      "img": "./adj/bolsos/bc1.jpg",
+      "color": "suela",
+      "cantidad": 1
+    },
+    {
+      "id": 8,
+      "nombre": "Álamo",
+      "tipo": "bolso",
+      "precio": 6500,
+      "img": "./adj/bolsos/bc3.jpg",
+      "color": "negro",
+      "cantidad": 1
+    },
+    {
+      "id": 9,
+      "nombre": "Álamo",
+      "tipo": "bolso",
+      "precio": 6500,
+      "img": "./adj/bolsos/bc5.jpg",
+      "color": "mostaza",
+      "cantidad": 1
+    },
+    {
+      "id": 10,
+      "nombre": "Jacarandá",
+      "tipo": "mochila",
+      "precio": 7400,
+      "img": "./adj/mochilas/ma1.jpg",
+      "color": "suela",
+      "cantidad": 1
+    },
+    {
+      "id": 11,
+      "nombre": "Jacarandá",
+      "tipo": "mochila",
+      "precio": 7400,
+      "img": "./adj/mochilas/ma3.jpg",
+      "color": "negro",
+      "cantidad": 1
+    },
+    {
+      "id": 12,
+      "nombre": "Jacarandá",
+      "tipo": "mochila",
+      "precio": 7400,
+      "img": "./adj/mochilas/ma5.jpg",
+      "color": "mostaza",
+      "cantidad": 1
+    },
+    {
+      "id": 13,
+      "nombre": "Lanín",
+      "tipo": "mochila",
+      "precio": 7200,
+      "img": "./adj/mochilas/mb1.jpg",
+      "color": "suela",
+      "cantidad": 1
+    },
+    {
+      "id": 14,
+      "nombre": "Lanín",
+      "tipo": "mochila",
+      "precio": 7200,
+      "img": "./adj/mochilas/mb3.jpg",
+      "color": "negro",
+      "cantidad": 1
+    },
+    {
+      "id": 15,
+      "nombre": "Alpes",
+      "tipo": "riñonera",
+      "precio": 4000,
+      "img": "./adj/riñoneras/ra1.jpg",
+      "color": "suela",
+      "cantidad": 1
+    },
+    {
+      "id": 16,
+      "nombre": "Alpes",
+      "tipo": "riñonera",
+      "precio": 4000,
+      "img": "./adj/riñoneras/ra2.jpg",
+      "color": "negro",
+      "cantidad": 1
+    },
+    {
+      "id": 17,
+      "nombre": "Alpes",
+      "tipo": "riñonera",
+      "precio": 4000,
+      "img": "./adj/riñoneras/ra3.jpg",
+      "color": "mostaza",
+      "cantidad": 1
+    },
+    {
+      "id": 18,
+      "nombre": "Alpes",
+      "tipo": "riñonera",
+      "precio": 4000,
+      "img": "./adj/riñoneras/ra4.jpg",
+      "color": "verde",
+      "cantidad": 1
+    }
+  ]
